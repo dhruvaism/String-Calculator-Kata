@@ -16,4 +16,9 @@ public class StringCalculatorTestCase {
         Assertions.assertEquals(0, this.sCalculator.add(""));
     }
 
+    @Test
+    public void isSingleString() {
+        Assertions.assertEquals(1, this.sCalculator.add("1"));
+    }
+
 }
